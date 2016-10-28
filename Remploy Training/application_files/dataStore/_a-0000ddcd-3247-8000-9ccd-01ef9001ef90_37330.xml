@@ -18,6 +18,16 @@
                 <name>Demo_URI</name>
                 <type>{urn:com:appian:types}Demo_URl</type>
             </entity>
+            <entity>
+                <uuid>d6e61d90-b752-41f8-a013-7f4e168edd2f</uuid>
+                <name>Demo_Emloyee</name>
+                <type>{urn:com:appian:types}DEMO_Employee</type>
+            </entity>
+            <entity>
+                <uuid>e30ce0f6-6fb5-4df5-a8be-7c31294b3b27</uuid>
+                <name>DDA_Emoployee</name>
+                <type>{urn:com:appian:types:DDA}DDA_Emoployee</type>
+            </entity>
         </entities>
     </dataStore>
     <isPublished>true</isPublished>
