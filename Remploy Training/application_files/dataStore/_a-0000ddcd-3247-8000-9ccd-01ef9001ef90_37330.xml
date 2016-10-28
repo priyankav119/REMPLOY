@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataStoreHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <dataStore>
+        <uuid>_a-0000ddcd-3247-8000-9ccd-01ef9001ef90_37330</uuid>
+        <name>Web_DataStore</name>
+        <description></description>
+        <dataSourceKey>jdbc/ExcelMSSqlDS</dataSourceKey>
+        <adaptingExplicitSqlNames>false</adaptingExplicitSqlNames>
+        <autoUpdateSchema>false</autoUpdateSchema>
+        <entities>
+            <entity>
+                <uuid>eedf1c55-98b8-42e3-bed7-4f83ca751822</uuid>
+                <name>test_cdt</name>
+                <type>{urn:com:appian:types}test_cdt</type>
+            </entity>
+            <entity>
+                <uuid>9a9f5e3c-043e-4331-b060-1c7c4e6c9818</uuid>
+                <name>Test_Demo_DT</name>
+                <type>{urn:com:appian:types}Test_Demo_DT</type>
+            </entity>
+            <entity>
+                <uuid>37c26a2f-0403-4a7d-8bcc-c0bb7317f8c3</uuid>
+                <name>Document</name>
+                <type>{urn:com:appian:types}Document</type>
+            </entity>
+        </entities>
+    </dataStore>
+    <isPublished>true</isPublished>
+    <roleMap>
+        <role allowForAll="false" inherit="false" name="administrators">
+            <users/>
+            <groups/>
+        </role>
+        <role allowForAll="false" inherit="false" name="authors">
+            <users/>
+            <groups/>
+        </role>
+        <role allowForAll="false" inherit="false" name="denyAdministrators">
+            <users/>
+            <groups/>
+        </role>
+        <role allowForAll="false" inherit="false" name="denyAuthors">
+            <users/>
+            <groups/>
+        </role>
+        <role allowForAll="false" inherit="false" name="denyReaders">
+            <users/>
+            <groups/>
+        </role>
+        <role allowForAll="false" inherit="false" name="readers">
+            <users/>
+            <groups/>
+        </role>
+    </roleMap>
+</dataStoreHaul>
